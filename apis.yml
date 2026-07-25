@@ -1,7 +1,27 @@
 aid: cult-of-the-north
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cult-of-the-north.png
 name: Cult of the North
-description: Cult of the North is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cult of the North (established November 2022 under the codename "Seidr")
+  is a Stockholm, Sweden-based video game studio co-founded by former EA general manager
+  Adam Schaub and former King SVP Marcus Jacobs, and backed by a seed investment from
+  Andreessen Horowitz (a16z). The studio drew talent from King, Activision Blizzard, EA,
+  Embark Studios, Resolution Games, and FunPlus, and set out to build large-scale, next-generation
+  multiplayer PvP experiences for PC and console in Unreal Engine 5 — first the debut title
+  codenamed "Project Gundalf" and later the free-to-play strategy war game "We Will Be Gods."
+  As a consumer game studio it exposes no public developer API, SDK, or documentation surface;
+  this profile carries company identity only. Industry reporting in 2025 indicated the studio
+  wound down operations.
 url: https://raw.githubusercontent.com/api-evangelist/cult-of-the-north/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,38 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: video-games
+x-headquarters: Stockholm, Sweden
+x-status: reportedly-wound-down-2025
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video Games
+- Game Studio
+- Game Development
+- Multiplayer
+- PvP
+- Gaming
+- Sweden
+- Unreal Engine
 apis: []
+common:
+- type: Website
+  url: https://www.cultofthenorth.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cultofthenorth
+- type: Twitter
+  url: https://x.com/CultOfTheNorth
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
